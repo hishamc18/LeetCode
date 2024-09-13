@@ -313,3 +313,14 @@
 //   }
 
 // console.log(intToRoman([3749]));
+
+
+//21
+// //Missing Number
+// function missingNumber(nums) {
+//     let n = nums.length;
+//     let expectedSum = (n * (n + 1)) / 2;
+//     let actualSum = nums.reduce((acc, num) => acc + num, 0);
+//     console.log(expectedSum - actualSum);
+//   }
+// missingNumber([0,1,2])
