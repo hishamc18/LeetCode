@@ -325,16 +325,28 @@
 // missingNumber([0,1,2])
 
 
-//valid palindrome
 
+//valid palindrome
 // function validePalindrome (s){
 //     let a = s.toLowerCase().replace(/[^a-z0-9]/g, '')
-
 //     let b = a.split("").reverse().join("")
-    
-    
-
 //     if(a === b) return true
 //     else return false
 // }
 // validePalindrome("A man, a plan, a canal: Panama");
+
+
+
+//maximum number in given number. only can change the one digit to 9
+// function maximum(num){
+//     let a = String(num).split("")
+
+//     for(i=0; i<a.length; i++){
+//         if(a[i] != 9){
+//             a[i] = 9
+//             break;
+//         }      
+//     }
+//     return parseInt(a.join(""))
+// }
+// maximum(9669)
