@@ -323,3 +323,18 @@
 //     console.log(expectedSum - actualSum);
 //   }
 // missingNumber([0,1,2])
+
+
+//valid palindrome
+
+// function validePalindrome (s){
+//     let a = s.toLowerCase().replace(/[^a-z0-9]/g, '')
+
+//     let b = a.split("").reverse().join("")
+    
+    
+
+//     if(a === b) return true
+//     else return false
+// }
+// validePalindrome("A man, a plan, a canal: Panama");
