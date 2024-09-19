@@ -377,3 +377,17 @@
 //     console.log(a);
 // }
 // uniqueSum([1,2,3,2])
+
+
+//secondLargest number in a string
+// function scl (s){
+//     let a = s.replace(/[^0-9]/g, '').split("").sort((a,b) =>a-b)
+//     let b = a.filter((x,i)=> a.indexOf(x) === i)
+//     if(b.length <= 1){
+//         console.log(-1);
+//     }
+//     else{
+//       console.log(b[b.length-2]);
+//     }
+// }
+// scl("abc01111")
