@@ -350,3 +350,24 @@
 //     return parseInt(a.join(""))
 // }
 // maximum(9669)
+
+
+//sum of unique
+// function sumUnique(nums) {
+//     let a = []
+//     let sum = 0
+//     for (let i = 0; i < nums.length; i++) {
+//         if (nums.indexOf(nums[i]) == nums.lastIndexOf(nums[i])) {
+//             a.push(sum += nums[i])
+//         }
+//     }
+//     if ((a[a.length - 1]) === undefined) {
+//         return 0
+//     }
+//     else {
+//         return a[a.length - 1]
+//     }
+// }
+// console.log(sumUnique([1, 2, 3, 2]));
+// console.log(sumUnique([1, 1, 1, 1, 1]));
+
