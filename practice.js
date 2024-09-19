@@ -371,3 +371,9 @@
 // console.log(sumUnique([1, 2, 3, 2]));
 // console.log(sumUnique([1, 1, 1, 1, 1]));
 
+//method 2 of above
+// function uniqueSum (nums) {
+//     let a = nums.filter((x,i)=> nums.indexOf(x) === nums.lastIndexOf(x)).reduce((acm, val)=> acm + val ,0)
+//     console.log(a);
+// }
+// uniqueSum([1,2,3,2])
