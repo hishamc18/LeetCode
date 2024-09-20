@@ -458,3 +458,79 @@
     
 // };
 // mergeAlternately("abc","pqr")
+
+
+//32
+//number of changing keys
+// function countKeyChanges (s) {
+//     let a = s.toLowerCase()
+//     let count = 0
+//     console.log(a);
+//     for (let i = 0; i < a.length; i++) {
+//         if(a.at(i) != a.at(i+1)){
+//             count++
+//         }
+//     }
+//     console.log(count-1);
+// };
+// countKeyChanges("AaAaAaaA")
+
+
+//33
+//find the repeated and missing
+// function findMissingAndRepeatedValues(grid) {
+//     let a = grid.flat(Infinity)
+//     k = 0
+//     var repeated =[]
+//     for(let i=0;i<a.length; i++){
+//         for(k = i+1; k<a.length; k++){
+//             if(a[i]==a[k]){
+//                 repeated.push(a[i])
+//         }
+//         }
+//     }
+    
+
+//     let c = a.filter((x,i) => a.indexOf(x) == i).sort((a,b)=>a-b)
+//     let missing = []
+//     for(let j = 1; j <=c.length+1; j++){
+//         if(!c.includes(j)){
+//             missing.push(j)
+//         }
+//     }
+//     let last = repeated.concat(missing)
+//     console.log(last);
+    
+// };
+// findMissingAndRepeatedValues([[1,3],[2,2]])
+// findMissingAndRepeatedValues([[9,1,7],[8,9,2],[3,4,6]])
+
+
+
+//34
+//Faulty Keyboard.  reverse the string when 'i' comes
+// function finalString (s) {
+//     let result = "";
+//     for(let i = 0; i<s.length; i++){
+//         if(s.at(i) == 'i'){
+//             result = result.split("").reverse().join("")
+//         }else{
+//             result += s.at(i)
+//         }
+//     }
+//     console.log(result);
+// };
+// finalString("string")
+
+
+
+//35
+//split strings by seperator
+// function splitWordsBySeparator (words, separator) {
+//     let a = words.join(separator).split(separator).filter((x) => x.length > 0)
+//     console.log(a);
+    
+// };
+
+// splitWordsBySeparator(["one.two.three","four.five","six"], ".")
+// splitWordsBySeparator(["$easy$","$problem$"], "$")
