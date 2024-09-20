@@ -325,7 +325,7 @@
 // missingNumber([0,1,2])
 
 
-
+//22
 //valid palindrome
 // function validePalindrome (s){
 //     let a = s.toLowerCase().replace(/[^a-z0-9]/g, '')
@@ -336,7 +336,7 @@
 // validePalindrome("A man, a plan, a canal: Panama");
 
 
-
+//23
 //maximum number in given number. only can change the one digit to 9
 // function maximum(num){
 //     let a = String(num).split("")
@@ -351,7 +351,7 @@
 // }
 // maximum(9669)
 
-
+//24
 //sum of unique
 // function sumUnique(nums) {
 //     let a = []
@@ -371,6 +371,8 @@
 // console.log(sumUnique([1, 2, 3, 2]));
 // console.log(sumUnique([1, 1, 1, 1, 1]));
 
+
+//25
 //method 2 of above
 // function uniqueSum (nums) {
 //     let a = nums.filter((x,i)=> nums.indexOf(x) === nums.lastIndexOf(x)).reduce((acm, val)=> acm + val ,0)
@@ -379,6 +381,7 @@
 // uniqueSum([1,2,3,2])
 
 
+//26
 //secondLargest number in a string
 // function scl (s){
 //     let a = s.replace(/[^0-9]/g, '').split("").sort((a,b) =>a-b)
@@ -391,3 +394,67 @@
 //     }
 // }
 // scl("abc01111")
+
+
+//27
+//convert date to binary (string to string)
+// function convertDateToBinary (date) {
+//     let a = date.split("-").map(x => Number(x).toString(2)).join("-");
+//     return a
+// };
+// convertDateToBinary("2080-02-29")
+
+
+//28
+// Harshad Number
+// function sumOfTheDigitsOfHarshadNumber (x) {
+//     let a = x.toString().split("").map(Number).reduce((acm, val) => acm + val ,0)
+//     if(x % a === 0) return Number(a)
+//     else return -1
+// };
+// console.log(sumOfTheDigitsOfHarshadNumber(23));
+
+
+//29
+//Number of 1s from 1 to n    (number.of 1s from 1 to n)
+// function countDigitOne (n) {
+//     let a = []
+//     for(i = 1; i<=n; i++){
+//         a.push(i)        
+//     }
+//     let b = a.join("").split("").filter(x => x ==1).length
+//     return b
+// };
+// countDigitOne(824883294);
+
+
+
+//30
+//reverse a string
+// function reverseWords (s) {
+//     let a = s.split(" ").filter((x) => x.length > 0).reverse().join(" ")
+//     console.log(a);
+// };
+// reverseWords("a good   example")
+
+
+//31
+//merge string alternately
+// function mergeAlternately(word1, word2) {
+//     let merged = "";
+//     let i = 0, j = 0;
+
+//     while (i < word1.length || j < word2.length) {
+//         if (i < word1.length) {
+//             merged += word1[i];
+//             i++;
+//         }
+//         if (j < word2.length) {
+//             merged += word2[j];
+//             j++;
+//         }
+//     }
+//     console.log(merged);
+    
+// };
+// mergeAlternately("abc","pqr")
