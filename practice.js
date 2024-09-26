@@ -138,7 +138,7 @@
 //     let b = new Set(a)
 //     let c = [...b]
 //     console.log(c);
-    
+
 //     for(i=0; i<Infinity; i++){
 //     if(c[i] != i+1) return i+1
 //     }
@@ -231,7 +231,7 @@
 // function findDuplicates(arr) {
 //     const seen = new Set();
 //     const duplicates = new Set();
-    
+
 //     arr.forEach(item => {
 //       if (seen.has(item)) {
 //         duplicates.add(item);
@@ -239,10 +239,10 @@
 //         seen.add(item);
 //       }
 //     });
-    
+
 //     return [...duplicates];
 //   }
-  
+
 //   const arr = [1, 2, 3, 4, 2, 5, 6, 3];
 //   console.log(findDuplicates(arr)); // Output: [2, 3]
 
@@ -250,7 +250,7 @@
 // function findDuplicates(arr){
 //     let a = arr.filter((num,index) => arr.indexOf(num) !== index)
 //     console.log(a);
-    
+
 // }
 // findDuplicates([1,2,1,5,2])
 
@@ -307,7 +307,7 @@
 //         num -= val;
 //       }
 //     }
-  
+
 //     return result.toUpperCase();
 //   }
 
@@ -455,7 +455,7 @@
 //         }
 //     }
 //     console.log(merged);
-    
+
 // };
 // mergeAlternately("abc","pqr")
 
@@ -489,7 +489,7 @@
 //         }
 //         }
 //     }
-    
+
 
 //     let c = a.filter((x,i) => a.indexOf(x) == i).sort((a,b)=>a-b)
 //     let missing = []
@@ -500,7 +500,7 @@
 //     }
 //     let last = repeated.concat(missing)
 //     console.log(last);
-    
+
 // };
 // findMissingAndRepeatedValues([[1,3],[2,2]])
 // findMissingAndRepeatedValues([[9,1,7],[8,9,2],[3,4,6]])
@@ -529,8 +529,201 @@
 // function splitWordsBySeparator (words, separator) {
 //     let a = words.join(separator).split(separator).filter((x) => x.length > 0)
 //     console.log(a);
-    
+
 // };
 
 // splitWordsBySeparator(["one.two.three","four.five","six"], ".")
 // splitWordsBySeparator(["$easy$","$problem$"], "$")
+
+
+//36
+//diference between two dates
+// function daysBetweenDates (date1, date2) {
+//     let a = new Date(date1);
+//     let b = new Date(date2)
+//     let diff = Math.abs(a - b)
+//     let days = diff / (1000 * 60 * 60 * 24)
+//     return days
+// };
+// daysBetweenDates("2019-06-29", "2019-06-30")
+
+
+//37
+// function closetTarget (words, target, startIndex) {
+//     let md = Infinity;
+
+//     for (let i = 0; i<words.length; i++){
+//         if(words[i] === target){
+
+//             const fd = Math.abs(i - startIndex)
+//             const bd = Math.abs(words.length - fd)
+
+//             const cd = Math.min(fd, bd);
+//             md = Math.min(cd, md)
+//         }
+//     }
+//     console.log( md === Infinity ? -1 : md);
+// }
+// closetTarget(["hello","i","am","leetcode","hello"],"hello",1)
+// closetTarget(["a","b","leetcode"], "leetcode", 0)
+
+
+//38
+//sum two numbers
+// function add (a,b){
+//     return a + b;
+// }
+// add(1,2)
+
+
+
+//39
+// concat array
+// function concatArray (arr){
+//     console.log([...arr,...arr]);
+// }
+// concatArray([1,2,1])
+
+
+//40
+//temperature conversion
+// function temperature(celcius){
+//     let kelvin = celcius + 273.15
+//     let fahrenheit = celcius * 1.80 + 32.00
+//     console.log([kelvin, fahrenheit]);
+// }
+// temperature(36.50)
+
+
+//41
+//smallest even multiple
+// function smallestEvenMultiple (n) {
+//     if(n % 2 == 0){
+//         console.log(n);
+//     }
+//     else{
+//         console.log(n * 2);
+//     }
+// };
+// smallestEvenMultiple(6)
+
+
+//42
+//fizzbuzz
+// function fizzBuzz(n) {
+//     let result = []
+//     for (let i = 1; i <= n; i++){
+//         if(i % 3 == 0 && i % 5 === 0){
+//             result.push("FizzBuzz")
+//         }
+//         else if(i % 3 == 0){
+//             result.push("Fizz")
+//         }
+//         else if(i % 35 == 0){
+//             result.push("Buzz")
+//         }
+//         else result.push(String(i))
+//     }
+//     console.log(result);
+
+// }
+// fizzBuzz(15)
+
+
+//43
+//Ant on the boundary
+// var returnToBoundaryCount = function(nums) {
+//     let position = 0
+//     let count = 0
+
+//     for (let i = 0; i < nums.length; i++){
+//         position += nums[i]
+//         if(position == 0) count++
+//     }
+//     return count
+// };
+// console.log(returnToBoundaryCount([2,3,-5]));
+
+
+
+//44
+// Average Value of Even Numbers That Are Divisible by Three
+// var averageValue = function(nums) {
+//     let validNumbers = nums.filter(num => num % 6 === 0);
+//     if (validNumbers.length === 0) {
+//         return 0;
+//     }
+//     let sum = validNumbers.reduce((acc, val) => acc + val, 0);
+//     return Math.floor(sum / validNumbers.length);
+// };
+// console.log(averageValue([3,89,52,96,72,27,59,57,97,6,46,88,41,52,46,4,17,2,95,6,62,69,10,63,24,1,71,55,46,4,61,78,21,85,52,83,77,42,21,73,2]));
+
+//45
+//var maxDepth = function(s) {
+// var maxDepth = function(s) {
+//     let cdepth = 0
+//     let maxdepth = 0
+
+//     for (let char of s){
+//         if(char == '('){
+//             cdepth++
+//             maxdepth = Math.max(maxdepth, cdepth)
+//         }
+//         else if(char == ')') cdepth--
+//     }
+//     return maxdepth
+// };
+// console.log(maxDepth("(1+(2*3)+((8)/4))+1"));
+
+//46
+//replace '.' with '[.]'
+// var defangIPaddr = function(address) {
+//     let b = []
+//     let a = address.split("")
+//     for(i = 0; i<a.length; i++){
+//         if(a[i] == '.'){
+//             b.push('[.]')
+//         }
+//         else b.push(a[i])
+//     }
+//     console.log(b.join(""));
+// }
+    
+// defangIPaddr("1.1.1.1")  // '1[.]1[.]1[.]1'
+
+//47
+// var judgeCircle = function(moves) {
+//     let horizontal = 0
+//     let vertical = 0
+
+//     for (let char of moves){
+//         if(char === 'U') vertical++;
+//         else if(char == 'D') vertical--;
+//         else if(char == 'R') horizontal++;
+//         else horizontal--;
+//     }
+//     return vertical == 0 && horizontal ==0
+// }
+// console.log(judgeCircle("LL"));
+
+
+//48
+//diff of prodcut and sum of digits
+// var subtractProductAndSum = function(n) {
+//     let a = String(n).split("").map(Number)
+//     let sum = a.reduce((a,b)=>a+b)
+//     let product = a.reduce((a,b)=>a*b)
+//     return product - sum
+// };
+// console.log(subtractProductAndSum(234));
+
+
+//49
+//diff arraysum and individial digit sum
+// var differenceOfSum = function(nums) {
+//     let arraySum = nums.reduce((a,b) =>a+b)
+//     let individualSum = nums.join("").split("").map(Number).reduce((a,b) => a+b)
+//     return arraySum - individualSum
+// };
+// console.log(differenceOfSum([1,15,6,3]));
+
