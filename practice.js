@@ -727,3 +727,45 @@
 // };
 // console.log(differenceOfSum([1,15,6,3]));
 
+
+//50
+//Count Integers With Even Digit Sum
+// var countEven = function(num) {
+//     let count = 0
+//     let sum = 0
+//     for (let i = 1; i<=num; i++){
+//         sum = i.toString().split("").map(Number).reduce((a,b) => a+b);
+
+//         if(sum % 2 == 0){
+//             count++
+//         }
+//     }
+//     console.log(count);
+// };
+// countEven(4)
+
+
+
+//51
+//507. Perfect Number
+// var checkPerfectNumber = function(num) {
+//     let divisors = []
+//     let sum = 0
+//     for(let i = 1; i<=Math.sqrt(num); i++){
+//         if(num % i == 0){
+//             divisors.push(i)
+//         if(i !== num / i){
+//             divisors.push(num/i)
+//         }
+//     }
+//     }
+
+//     let b = divisors.sort((a,b) => a-b).slice(0,divisors.length-1)
+//     sum = b.reduce((a,b) => a+b)
+    
+//     if(sum == num){
+//         return true
+//     }
+//     else return false
+// };
+// console.log(checkPerfectNumber(1));
