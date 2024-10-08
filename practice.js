@@ -11,6 +11,7 @@
 // };
 
 
+
 //2
 // //median of two arrays
 // var findMedianSortedArrays = function(nums1, nums2) {
@@ -688,7 +689,7 @@
 //     }
 //     console.log(b.join(""));
 // }
-    
+
 // defangIPaddr("1.1.1.1")  // '1[.]1[.]1[.]1'
 
 //47
@@ -762,10 +763,98 @@
 
 //     let b = divisors.sort((a,b) => a-b).slice(0,divisors.length-1)
 //     sum = b.reduce((a,b) => a+b)
-    
+
 //     if(sum == num){
 //         return true
 //     }
 //     else return false
 // };
 // console.log(checkPerfectNumber(1));
+
+
+
+// // 2129. Capitalize the Title
+// var capitalizeTitle = function (title) {
+//     return title.split(" ").map((x) => x.length > 2 ? x[0].toUpperCase() + x.slice(1).toLowerCase(): x.toLowerCase()).join(" ")
+// }
+// capitalizeTitle("First Letter Of Each Word")
+
+
+// 2114. Maximum Number of Words Found in Sentences
+// var mostWordsFound = function(sentences) {
+//     let a = sentences.map((x) => x.split(" ").length).sort((a,b) => b-a)
+//     return a[0]
+// };
+// mostWordsFound(["alice and bob love leetcode","i think so too","this is great thanks very much"])
+
+
+//217. Contains Duplicate
+// var containsDuplicate = function(nums) {
+//     let a = nums.filter((x,i) => nums.indexOf(x) !== i)
+//     return a.length > 0 ? true : false
+// };
+// console.log(containsDuplicate([1,2,3,1,2]));
+
+
+
+// var containsDuplicate = function(nums) {
+//     let a = new Set(nums)
+//     return a.size < nums.length 
+   
+// }
+// console.log(containsDuplicate([1,2,3,1]));
+
+
+
+//2540. Minimum Common Value
+// var getCommon = function(nums1, nums2) {
+//     let i = 0, j = 0;
+//     while (i < nums1.length && j < nums2.length) {
+//         if (nums1[i] === nums2[j]) {
+//             return nums1[i]; 
+//         } else if (nums1[i] < nums2[j]) {
+//             i++; 
+//         } else {
+//             j++;
+//         }
+//     }
+//     return -1; 
+// };
+// console.log(getCommon([1,1,2], [2,4]));
+
+
+
+// var finalValueAfterOperations = function(operations) {
+//     let x = 0
+//     for(let i = 0; i<operations.length; i++){
+//         if(operations[i] == "--X" || operations[i] == 'X--'){
+//             x--
+//         }
+//         else if(operations[i] == "++X" || operations[i] == 'X++'){
+//             x++
+//         }
+//     }
+//     return x
+// };
+// console.log(finalValueAfterOperations(["--X","X++","X++"]));
+
+
+//2828. Check if a String Is an Acronym of Words
+// var isAcronym = function(words, s) {
+    
+//     let acronym = "";
+//     for (let i = 0; i < words.length; i++) {
+//         acronym += words[i][0];
+//     }
+//     return acronym === s;
+// }
+// console.log(isAcronym(["alice","bob","charlie"], "abc"));
+
+
+//977
+// Squares of a Sorted Array
+// var sortedSquares = function(nums) {
+//     let a = nums.map((x) => x*x).sort((a,b) => a-b)
+//     return a
+// };
+// console.log(sortedSquares([-4,-1,0,3,10]));
