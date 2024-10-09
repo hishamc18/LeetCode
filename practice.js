@@ -859,7 +859,9 @@
 // };
 // console.log(sortedSquares([-4,-1,0,3,10]));
 
-//adding digits untill geting a single value as sum
+
+
+// //adding digits untill geting a single value as sum
 // var addDigits = function(num) {
 //     while (num >= 10) {
 //         num = num.toString().split("").map(Number).reduce((a, b) => a + b, 0);
