@@ -871,3 +871,15 @@
 // console.log(addDigits(48));
 
 
+// 1455. Check If a Word Occurs As a Prefix of Any Word in a Sentence
+// var isPrefixOfWord = function(sentence, searchWord) {
+//     let a = sentence.split(" ");
+//     for(i=0; i<a.length; i++){
+//         if(a[i].startsWith(searchWord)){
+//             return i+1
+//         }
+//     }
+//     return -1
+// };
+
+// console.log(isPrefixOfWord("i love eating burger","burg"));
