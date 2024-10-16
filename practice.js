@@ -883,3 +883,20 @@
 // };
 
 // console.log(isPrefixOfWord("i love eating burger","burg"));
+
+
+
+// 80. Remove Duplicates from Sorted Array II
+// var removeDuplicates = function(nums) {
+//     if (nums.length <=2) return nums.length;
+    
+//     j = 2
+//     for(i = 2; i<nums.length; i++){
+//         if(nums[i] != nums[j-2]){
+//             nums[j] = nums[i]
+//             j++
+//         }
+//     }
+//     return j
+// };
+// console.log(removeDuplicates([1,1,1,2,2,3]));
