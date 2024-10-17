@@ -900,3 +900,17 @@
 //     return j
 // };
 // console.log(removeDuplicates([1,1,1,2,2,3]));
+
+
+
+// 771. Jewels and Stones
+// var numJewelsInStones = function(jewels, stones) {
+//     let count = 0;
+//     for(let i = 0; i<stones.length; i++){
+//         if(jewels.includes(stones[i]))
+//             count ++
+//     }
+//     console.log(count);
+    
+// };
+// numJewelsInStones("aA", "aAAbbbb");
