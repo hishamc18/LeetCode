@@ -914,3 +914,41 @@
     
 // };
 // numJewelsInStones("aA", "aAAbbbb");
+
+
+// // // // hello world to world hello  using one split
+// function reverse (params) {
+//     let a = params.split(" ")
+//     let result = ''
+//     for(i = 0; i < a.length; i++){
+//         var revString = ''
+//         for(j = a[i].length-1; j>=0; j--){
+//             revString += a[i][j]
+//         }
+//         result += revString + " "
+//     }
+//     return result
+// }
+// console.log(reverse("hello world"));
+
+
+// 20.valid parantheis
+// var isValid = function(s) {
+//     let a = s.split("");
+//     let c = []
+//     for(i = 0; i<a.length; i++){
+//         if(a[i] == '[' || a[i] == '{' || a[i] =='(' ){
+//             c.push(a[i])
+//         }
+//         else{
+//             if((a[i] === ']' && c[c.length - 1] === '[') ||
+//             (a[i] === '}' && c[c.length - 1] === '{') ||
+//             (a[i] === ')' && c[c.length - 1] === '(')) {
+//              c.pop();
+//             }else return false
+//         }
+//     }
+
+//     return c.length == 0
+// };
+// console.log(isValid("("));
