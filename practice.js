@@ -952,3 +952,34 @@
 //     return c.length == 0
 // };
 // console.log(isValid("("));
+
+
+// 1979. Find Greatest Common Divisor of Array
+// function gcd(a,b){
+//     if(b == 0){
+//         return a
+//     }
+//         return gcd(b, a % b)
+// }
+// var findGCD = function(nums) {
+//     minNum = Math.min(...nums)
+//     maxNum = Math.max(...nums)
+//     return gcd(maxNum, minNum)
+// };
+// console.log(findGCD([5,6,9,10]));
+
+// // method-2 of GCD
+// function gcd (arr){
+//     minNum = Math.min(...arr)
+//     maxNum = Math.max(...arr)
+//     let result = [];
+
+//     for(let i = 0; maxNum >=i; i++){
+//         if(maxNum % i == 0 && minNum % i == 0){
+//             result.push(i)
+//         }
+//     }
+//     console.log(result[result.length - 1]);
+    
+// }
+// gcd([2,4,5,9,10])
