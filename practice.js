@@ -973,13 +973,25 @@
 //     minNum = Math.min(...arr)
 //     maxNum = Math.max(...arr)
 //     let result = [];
-
 //     for(let i = 0; maxNum >=i; i++){
 //         if(maxNum % i == 0 && minNum % i == 0){
 //             result.push(i)
 //         }
 //     }
 //     console.log(result[result.length - 1]);
-    
 // }
 // gcd([2,4,5,9,10])
+
+
+
+
+// 34. Find First and Last Position of Element in Sorted Array
+// var searchRange = function(nums, target) {
+//         if(nums.length == 0 || !nums.includes(target)){
+//             return [-1, -1]
+//         }
+//            let a = nums.indexOf(target)
+//            let b = nums.lastIndexOf(target)
+//     return [a,b]
+//     }
+// console.log(searchRange([], 0));
