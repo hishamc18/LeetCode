@@ -995,3 +995,49 @@
 //     return [a,b]
 //     }
 // console.log(searchRange([], 0));
+
+
+
+// // 283. Move Zeroes
+// var moveZeroes = function(nums) {
+//     let zeroArr = []
+//     for(i=0; i < nums.length; i++){
+//         if(nums[i] == 0){
+//             zeroArr.push(nums[i])
+//         }
+//     }
+//     let b = nums.filter((x) => x>0)
+//     return [...b,...zeroArr]
+// };
+// console.log(moveZeroes([0,1,0,3,12]));
+
+
+// ///method 2 for 283qn,
+// var moveZeroes = function(nums) {
+//     let nonZeroIndex = 0;
+//     for (let i = 0; i < nums.length; i++) {
+//         if (nums[i] !== 0) {
+//             nums[nonZeroIndex] = nums[i];
+//             nonZeroIndex++;
+//         }
+//     }
+//     for (let i = nonZeroIndex; i < nums.length; i++) {
+//         nums[i] = 0;
+//     }
+// };
+
+
+
+// // 383. Ransom Note
+// var canConstruct = function(ransomNote, magazine) {
+//     for (let i of ransomNote) {
+//       if (magazine.includes(i)) {
+//         magazine = magazine.replace(i, '');
+//       } else {
+//         return false;
+//       }
+//     }
+//     return true;
+//   };
+
+
