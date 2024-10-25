@@ -1733,3 +1733,42 @@
 //     }
 // }
 // console.log(merge([1,2,3,0,0,0],3,[2,5,6],3));
+
+
+
+// 2956. Find Common Elements Between Two Arrays
+// var findIntersectionValues = function(nums1, nums2) {
+//     let num1 = new Set(nums1)
+//     let num2 = new Set(nums2) 
+    
+//     let count1 = nums1.filter((element) => num2.has(element)).length;
+//     let count2 = nums2.filter((element) => num1.has(element)).length;
+
+//     return [count1, count2]
+
+// };
+// console.log(findIntersectionValues([2,3,2],[1,2]));
+
+
+
+
+// // 2956. Find Common Elements Between Two Arrays (method 2)
+// var findIntersectionValues = function(nums1, nums2) {
+//     let count1 = 0;
+//     let count2 = 0;
+
+//     for(let i = 0; i<nums1.length; i++){
+//         if(nums2.includes(nums1[i])){
+//             count1++;
+//         }
+//     }
+
+
+//     for(let i = 0; i<nums2.length; i++){
+//         if(nums1.includes(nums2[i])){
+//             count2++;
+//         }
+//     }
+//     return [count1, count2]
+// }
+// console.log(findIntersectionValues([2,3,2],[1,2]));
