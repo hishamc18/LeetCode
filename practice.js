@@ -1772,3 +1772,16 @@
 //     return [count1, count2]
 // }
 // console.log(findIntersectionValues([2,3,2],[1,2]));
+
+
+
+// // 389. Find the Difference
+// var findTheDifference = function(s, t) {
+//     let result = 0;
+//     for(let char of s+t){
+//         result ^= char.charCodeAt(0)
+//     }
+//     return String.fromCharCode(result)
+// };
+// console.log(findTheDifference("abcd","abcde"));
+// console.log(findTheDifference("a","aa"));
