@@ -1785,3 +1785,17 @@
 // };
 // console.log(findTheDifference("abcd","abcde"));
 // console.log(findTheDifference("a","aa"));
+
+
+// // 205. Isomorphic Strings
+// var isIsomorphic = function(s, t) {
+//     if(s.length != t.length) return false 
+
+//     for(let i = 0; i<s.length; i++){
+//         if(s.indexOf(s[i]) != t.indexOf(t[i])) return false
+//     }
+//     return true
+// };
+// console.log(isIsomorphic("foo", "barr"));
+// console.log(isIsomorphic("for", "ban"));
+// console.log(isIsomorphic("paper", "title"));
