@@ -139,7 +139,7 @@
 //     let b = new Set(a)
 //     let c = [...b]
 //     console.log(c);
-    
+
 //     for(i=0; i<Infinity; i++){
 //     if(c[i] != i+1) return i+1
 //     }
@@ -232,7 +232,7 @@
 // function findDuplicates(arr) {
 //     const seen = new Set();
 //     const duplicates = new Set();
-    
+
 //     arr.forEach(item => {
 //       if (seen.has(item)) {
 //         duplicates.add(item);
@@ -240,10 +240,10 @@
 //         seen.add(item);
 //       }
 //     });
-    
+
 //     return [...duplicates];
 //   }
-  
+
 //   const arr = [1, 2, 3, 4, 2, 5, 6, 3];
 //   console.log(findDuplicates(arr)); // Output: [2, 3]
 
@@ -251,7 +251,7 @@
 // function findDuplicates(arr){
 //     let a = arr.filter((num,index) => arr.indexOf(num) !== index)
 //     console.log(a);
-    
+
 // }
 // findDuplicates([1,2,1,5,2])
 
@@ -308,7 +308,7 @@
 //         num -= val;
 //       }
 //     }
-  
+
 //     return result.toUpperCase();
 //   }
 
@@ -456,7 +456,7 @@
 //         }
 //     }
 //     console.log(merged);
-    
+
 // };
 // mergeAlternately("abc","pqr")
 
@@ -490,7 +490,7 @@
 //         }
 //         }
 //     }
-    
+
 
 //     let c = a.filter((x,i) => a.indexOf(x) == i).sort((a,b)=>a-b)
 //     let missing = []
@@ -501,7 +501,7 @@
 //     }
 //     let last = repeated.concat(missing)
 //     console.log(last);
-    
+
 // };
 // findMissingAndRepeatedValues([[1,3],[2,2]])
 // findMissingAndRepeatedValues([[9,1,7],[8,9,2],[3,4,6]])
@@ -518,7 +518,7 @@
 //         }
 //     }
 //     console.log(result);
-    
+
 // };
 // finalString("string")
 // ```
@@ -1325,7 +1325,7 @@
 // var containsDuplicate = function(nums) {
 //     let a = new Set(nums)
 //     return a.size < nums.length 
-   
+
 // }
 // console.log(containsDuplicate([1,2,3,1]));
 
@@ -1366,7 +1366,7 @@
 
 //2828. Check if a String Is an Acronym of Words
 // var isAcronym = function(words, s) {
-    
+
 //     let acronym = "";
 //     for (let i = 0; i < words.length; i++) {
 //         acronym += words[i][0];
@@ -1414,7 +1414,7 @@
 // 80. Remove Duplicates from Sorted Array II
 // var removeDuplicates = function(nums) {
 //     if (nums.length <=2) return nums.length;
-    
+
 //     j = 2
 //     for(i = 2; i<nums.length; i++){
 //         if(nums[i] != nums[j-2]){
@@ -1436,7 +1436,7 @@
 //             count ++
 //     }
 //     console.log(count);
-    
+
 // };
 // numJewelsInStones("aA", "aAAbbbb");
 
@@ -1606,7 +1606,7 @@
 //     let newArray = [];
 
 //     let d = s.split("")
-    
+
 //     for (let i = 0; i<s.length; i++){
 //         newArray[indices[i]] = d[i]
 //     }
@@ -1740,7 +1740,7 @@
 // var findIntersectionValues = function(nums1, nums2) {
 //     let num1 = new Set(nums1)
 //     let num2 = new Set(nums2) 
-    
+
 //     let count1 = nums1.filter((element) => num2.has(element)).length;
 //     let count2 = nums2.filter((element) => num1.has(element)).length;
 
@@ -1761,7 +1761,7 @@
 //         if(nums2.includes(nums1[i])){
 //             count1++;
 //         }
-//     }
+//
 
 
 //     for(let i = 0; i<nums2.length; i++){
@@ -1839,4 +1839,20 @@
 // function argumentsLength (...args) {
 //     return args.length
 // }
-// console.log(argumentsLength(1,2,3,4));
+// console.log(argumentsLength(1,2,3,4))
+
+
+
+//leetcode 496
+// function nextGreaterElement(nums1, nums2) {
+//     return nums1.map(num => {
+//         const index = nums2.indexOf(num);
+//         const nextGreater = nums2.slice(index + 1).find(n => n > num);
+//         return nextGreater !== undefined ? nextGreater : -1;
+//     });
+// }
+// const nums1 = [4, 1, 2];
+// const nums2 = [1, 3, 4, 2];
+// console.log(nextGreaterElement(nums1, nums2));
+
+
