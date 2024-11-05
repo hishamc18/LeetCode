@@ -1856,3 +1856,19 @@
 // console.log(nextGreaterElement(nums1, nums2));
 
 
+
+// // 476. Number Complement
+// var findComplement = function(num) {
+//     let a = num.toString(2)
+//     let result = ''
+//     for(let char of a){
+//         if(char == '1'){
+//             result += '0'
+//         }
+//         else{
+//             result += '1'
+//         }
+//     }
+//     return parseInt(result, 2)
+// };
+// console.log(findComplement(5));
