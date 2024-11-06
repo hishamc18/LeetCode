@@ -1872,3 +1872,39 @@
 //     return parseInt(result, 2)
 // };
 // console.log(findComplement(5));
+
+
+
+
+// // irst Unique Character in a String
+// var firstUniqChar = function(s) {
+//     let a = s.split("").filter((x,_,arr) => arr.indexOf(x) == arr.lastIndexOf(x))
+//     return s.indexOf(a[0])
+
+// };
+// console.log(firstUniqChar("leetcode"));
+// console.log(firstUniqChar("loveleetcode"));
+
+// // // irst Unique Character in a String      //method 2
+// var firstUniqChar = function(s) {
+//     for (let i = 0; i < s.length; i++) {
+//         if (s.indexOf(s[i]) === s.lastIndexOf(s[i])) {
+//             return i; 
+//         }
+//     }
+//     return -1;
+// };
+
+
+
+// // 486. XOR Operation in an Array
+// var xorOperation = function(n, start) {
+//     let xor = 0;
+//     for(let i = 0; i < n; i++){
+//         let item = start + 2 * i;
+//         xor ^= item
+//     }
+//     return xor
+// }
+// console.log(xorOperation(5,0));
+
