@@ -1908,3 +1908,32 @@
 // }
 // console.log(xorOperation(5,0));
 
+
+
+// // 3210. Find the Encrypted String
+// var getEncryptedString = function (s, k) {
+//     let encrypted = new Array(s.length)
+
+//     for (i = 0; i < s.length; i++){
+//         const index = (i + k) % s.length;
+//         encrypted.push(s[index])
+//     }
+//     return encrypted.join("")
+// }
+// console.log(getEncryptedString("dart",3));
+
+
+// // // 3210. Find the Encrypted String      (method-2)
+// var getEncryptedString = function (s, k) {
+//     let encrypted = ''
+
+//     for (i = 0; i < s.length; i++){
+//         const index = (i + k) % s.length;
+//         encrypted += s[index]
+//     }
+//     return encrypted
+// }
+// console.log(getEncryptedString("dart",3));
+
+
+
