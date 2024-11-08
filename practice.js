@@ -1960,3 +1960,20 @@
 // };
 // console.log(calPoints(["5","2","C","D","+"]));
 
+
+
+// // 2620. Counter
+// var createCounter = function(n) {
+//     return function() {
+//         return n++
+//     };
+// };
+
+
+
+// // 2621. Sleep
+// async function sleep(millis) {
+//     return new Promise((resolve) => {
+//         setTimeout(resolve, millis)
+//     })
+// }
