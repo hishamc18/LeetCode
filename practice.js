@@ -1923,6 +1923,7 @@
 // console.log(getEncryptedString("dart",3));
 
 
+
 // // // 3210. Find the Encrypted String      (method-2)
 // var getEncryptedString = function (s, k) {
 //     let encrypted = ''
@@ -1936,4 +1937,26 @@
 // console.log(getEncryptedString("dart",3));
 
 
+
+
+// // 682. Baseball Game
+// var calPoints = function(operations) {
+//     let result = []
+//     for(let i = 0; i<operations.length; i++){
+//         if(operations[i] == 'D'){
+//             result.push(2 * result[result.length-1])
+//         }
+//         else if(operations[i] == 'C'){
+//             result.pop()
+//         }
+//         else if(operations[i] == '+'){
+//             result.push(result[result.length-1] + result[result.length-2])
+//         }
+//         else{
+//             result.push(parseInt(operations[i]))
+//         }
+//     }
+//     return result.reduce((acc,val) => acc+val,0)
+// };
+// console.log(calPoints(["5","2","C","D","+"]));
 
