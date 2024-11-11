@@ -1977,3 +1977,43 @@
 //         setTimeout(resolve, millis)
 //     })
 // }
+
+
+
+
+// 2619. Array Prototype Last
+// Array.prototype.last = function() {
+//     if (this.length === 0) {
+//         return -1; 
+//     }
+//     return this[this.length - 1];
+// };
+// let arr = [1,2,3,4,51]
+// console.log(arr.last());
+
+
+
+// 2665. Counter II
+// var createCounter = function(initialValue) {
+//     let count = initialValue;
+
+//     return {
+//         increment: () => ++count,
+//         decrement: () => --count,
+//         reset: () => {
+//             count = initialValue;
+//             return count;
+//         }
+//     };
+// };
+
+
+
+// // 2626. Array Reduce Transformation
+// var reduce = function(nums, fn, init) {
+//     let val = init;
+//     for (let i = 0; i < nums.length; i++) {
+//         val = fn(val, nums[i]);
+//     }
+//     return val;
+// };
