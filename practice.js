@@ -11,6 +11,8 @@
 // //     }
 // // };
 
+const { STRING } = require("mysql/lib/protocol/constants/types");
+
 
 // //2
 // // //median of two arrays
@@ -2065,3 +2067,23 @@
 //     return prefix
 // };
 // console.log(longestCommonPrefix(["flower", "flow", "flight"]));
+
+
+
+
+// // // 2309. Greatest English Letter in Upper and Lower Case
+// var greatestLetter = function(s) {
+//     let set = new Set(s);
+//     for (let i = 90; i >= 65; i--) {
+//         let upper = String.fromCharCode(i); 
+//         let lower = String.fromCharCode(i + 32);
+
+//         if (set.has(upper) && set.has(lower)) {
+//             return upper;
+//         }
+//     }
+//     return "";
+// };
+// console.log(greatestLetter('lEzetCode'));
+
+
