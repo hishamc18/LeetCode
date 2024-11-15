@@ -2087,3 +2087,26 @@ const { STRING } = require("mysql/lib/protocol/constants/types");
 // console.log(greatestLetter('lEzetCode'));
 
 
+
+
+// // 386. Lexicographical Numbers
+// var lexicalOrder = function(n) {
+//     let number = []
+//     for(let i = 1; i<=n; i++){
+//         number.push(i)
+//     }
+//     return number.sort()
+// };
+// console.log(lexicalOrder(13));
+
+
+
+// 
+// var isEmpty = function(obj) {
+//     if(Object.keys(obj).length === 0){
+//         return true
+//     } else {
+//         return false
+//     }
+// };
+// console.log(isEmpty({"x": 5, "y": 42}));
