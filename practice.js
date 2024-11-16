@@ -2110,3 +2110,19 @@ const { STRING } = require("mysql/lib/protocol/constants/types");
 //     }
 // };
 // console.log(isEmpty({"x": 5, "y": 42}));
+
+
+
+
+// // 414. Third Maximum Number
+// var thirdMax = function(nums) {
+//     let a = nums.sort((a,b) => b-a)
+//     let b = Array.from(new Set(a))
+//     if(b.length < 3) return b[0]
+//     else return b[2]
+// };
+// console.log(thirdMax([3,2,1]));
+// console.log(thirdMax([2,1]));
+// console.log(thirdMax([2,2,3,1]));
+
+
