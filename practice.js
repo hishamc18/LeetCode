@@ -2126,3 +2126,15 @@ const { STRING } = require("mysql/lib/protocol/constants/types");
 // console.log(thirdMax([2,2,3,1]));
 
 
+
+
+
+
+
+
+// // 2724. Sort By
+// var sortBy = function(arr, fn) {
+//     return arr.sort((a,b)=>fn(a) - fn(b))
+// };
+// console.log(sortBy([5, 4, 1, 2, 3], (x)=>x));
+
