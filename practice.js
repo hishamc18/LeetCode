@@ -2128,13 +2128,28 @@ const { STRING } = require("mysql/lib/protocol/constants/types");
 
 
 
-
-
-
-
 // // 2724. Sort By
 // var sortBy = function(arr, fn) {
 //     return arr.sort((a,b)=>fn(a) - fn(b))
 // };
 // console.log(sortBy([5, 4, 1, 2, 3], (x)=>x));
 
+
+
+// // 2974. Minimum Number Game
+// var numberGame = function(nums) {
+//     nums.sort((a, b) => a - b);
+//     let arr = [];
+//     while (nums.length > 0) {
+//         let alicePick = nums.shift();
+//         let bobPick = nums.shift();
+        
+//         if (bobPick !== undefined) {
+//             arr.push(bobPick);
+//         }
+//         arr.push(alicePick);
+//     }
+//     return arr;
+// };
+
+// console.log(numberGame([5, 4, 2, 3]));
