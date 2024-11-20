@@ -2151,5 +2151,17 @@ const { STRING } = require("mysql/lib/protocol/constants/types");
 //     }
 //     return arr;
 // };
-
 // console.log(numberGame([5, 4, 2, 3]));
+
+
+
+
+// // 3110. Score of a String
+// var scoreOfString = function(s) {
+//     let score = 0;
+//     for(let i = 0; i < s.length - 1; i++){
+//         score += Math.abs(s.charCodeAt(i) - s.charCodeAt(i+1))
+//     }
+//     return score
+// };
+// console.log(scoreOfString('hello'));
