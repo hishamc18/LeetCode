@@ -2190,3 +2190,56 @@ const { STRING } = require("mysql/lib/protocol/constants/types");
 //     return [...arr1,...arr2]
 // };
 // console.log(resultArray([2,1,3]));
+
+
+
+
+// // 2726. Calculator with Method Chaining
+// class Calculator {
+//     constructor(value = 0) {
+//       this.result = value;
+//     }
+  
+//     add(value) {
+//       this.result += value;
+//       return this;
+//     }
+  
+//     subtract(value) {
+//       this.result -= value;
+//       return this;
+//     }
+  
+//     multiply(value) {
+//       this.result *= value;
+//       return this;
+//     }
+  
+//     divide(value) {
+//       if (value === 0) {
+//         throw "Division by zero is not allowed";
+//       }
+//       this.result /= value;
+//       return this;
+//     }
+  
+//     power(value) {
+//       this.result = Math.pow(this.result, value);
+//       return this;
+//     }
+  
+//     getResult() {
+//       return this.result;
+//     }
+//   }
+//  const calc = new Calculator(2);
+//  console.log(calc.multiply(3).getResult());
+
+
+
+
+// // 2723. Add Two Promises
+// var addTwoPromises = async function(promise1, promise2) {
+//     const [value1, value2] = await Promise.all([promise1, promise2]);
+//     return value1 + value2;
+// };
