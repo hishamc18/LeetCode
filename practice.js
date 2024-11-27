@@ -2243,3 +2243,18 @@ const { STRING } = require("mysql/lib/protocol/constants/types");
 //     const [value1, value2] = await Promise.all([promise1, promise2]);
 //     return value1 + value2;
 // };
+
+
+
+// // 1221. Split a String in Balanced Strings
+// var balancedStringSplit = function(s) {
+//     let balance = 0, result = 0
+//     for(let i = 0; i<s.length; i++){
+//         if(s[i] == "L") balance++
+//         else balance--
+
+//         if(balance == 0) result++
+//     }
+//     return result
+// };
+// console.log(balancedStringSplit('RLRRLLRLRL'));
