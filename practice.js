@@ -2258,3 +2258,20 @@ const { STRING } = require("mysql/lib/protocol/constants/types");
 //     return result
 // };
 // console.log(balancedStringSplit('RLRRLLRLRL'));
+
+
+
+
+
+// // 3190. Find Minimum Operations to Make All Elements Divisible by Three
+// var minimumOperations = function(nums) {
+//     let operations = 0;
+//     for(let i = 0; i < nums.length; i++){
+//        let reminder = nums[i] % 3
+//        if(reminder != 0){
+//         operations++
+//        }
+//     }
+//     return operations
+// };
+// console.log(minimumOperations([1,2,3,4]));
