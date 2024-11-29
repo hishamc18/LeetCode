@@ -2275,3 +2275,17 @@ const { STRING } = require("mysql/lib/protocol/constants/types");
 //     return operations
 // };
 // console.log(minimumOperations([1,2,3,4]));
+
+
+
+// // 2942. Find Words Containing Character
+// var findWordsContaining = function(words, x) {
+//     let indexes = []
+//     for(let i = 0; i<words.length; i++){
+//         if(words[i].includes(x)){
+//             indexes.push(i)
+//         }
+//     }
+//     return indexes
+// };
+// console.log(findWordsContaining(["l", "leet","code"],'e'));
