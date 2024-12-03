@@ -2289,3 +2289,22 @@ const { STRING } = require("mysql/lib/protocol/constants/types");
 //     return indexes
 // };
 // console.log(findWordsContaining(["l", "leet","code"],'e'));
+
+
+
+
+// // 2894. Divisible and Non-divisible Sums Difference
+// var differenceOfSums = function(n, m) {
+//     let a = 0
+//     let b = 0
+//     for(let i = 1; i <= n; i++){
+//         if(i % m == 0 ){
+//             a+=i
+//         }
+//         else {
+//             b+=i
+//         }
+//     }
+//     return b-a
+// };
+// console.log(differenceOfSums(10,3));
