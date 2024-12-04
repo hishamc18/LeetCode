@@ -2307,4 +2307,16 @@ const { STRING } = require("mysql/lib/protocol/constants/types");
 //     }
 //     return b-a
 // };
-// console.log(differenceOfSums(10,3));
+// console.log(differenceOfSums(10,3));\\
+
+
+
+
+
+// // 1122. Relative Sort Array
+// var relativeSortArray = function(arr1, arr2) {
+//     let a = arr2.flatMap(num => arr1.filter(x => x == num))
+//     let remains = arr1.filter(x => !arr2.includes(x)).sort((a,b)=>a-b)
+//     return [...a,...remains]
+// };
+// console.log(relativeSortArray([2,3,1,3,2,4,6,7,9,2,19],[2,1,4,3,9,6]));
