@@ -2320,3 +2320,30 @@ const { STRING } = require("mysql/lib/protocol/constants/types");
 //     return [...a,...remains]
 // };
 // console.log(relativeSortArray([2,3,1,3,2,4,6,7,9,2,19],[2,1,4,3,9,6]));
+
+
+
+// 120. Triangle
+// var minimumTotal = function(triangle) {
+//     let a = []
+//     for(let i = 0; i<triangle.length; i++){
+//         a.push(Math.min(...triangle[i]))
+//     }
+//     return a.reduce((acc,val)=>acc+val,0)
+// };
+// console.log(minimumTotal([[2],[3,4],[6,5,7],[4,1,8,3]]));
+// console.log(minimumTotal([[-1],[2,3],[1,-1,-3]]));
+
+
+
+
+// var minimumTotal = function(triangle) {
+//     for(let i = triangle.length-2; i>=0; i--){
+//         for(let j=0; j<triangle[i].length; j++){
+//             triangle[i][j] += Math.min(triangle[i+1][j],triangle[i+1][j+1])
+//         }
+//     }
+//      return triangle[0][0]
+// };
+// console.log(minimumTotal([[2],[3,4],[6,5,7],[4,1,8,3]]));
+// console.log(minimumTotal([[-1],[2,3],[1,-1,-3]]));
