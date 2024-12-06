@@ -2347,3 +2347,19 @@ const { STRING } = require("mysql/lib/protocol/constants/types");
 // };
 // console.log(minimumTotal([[2],[3,4],[6,5,7],[4,1,8,3]]));
 // console.log(minimumTotal([[-1],[2,3],[1,-1,-3]]));
+
+
+
+// // 2042. Check if Numbers Are Ascending in a Sentence
+// var areNumbersAscending = function(s) {
+//     let a = s.split(" ").map(Number).filter(Number)
+//     for(let i = 0; i < a.length; i++){
+
+//         if(a[i] > a[i+1]){
+//             return false
+//         }
+//     }
+//     return true
+// };
+// console.log(areNumbersAscending("1 box has 3 blue 4 red 6 green and 12 yellow marbles"));
+
