@@ -11,7 +11,7 @@
 // //     }
 // // };
 
-const { STRING } = require("mysql/lib/protocol/constants/types");
+
 
 
 // //2
@@ -2357,9 +2357,37 @@ const { STRING } = require("mysql/lib/protocol/constants/types");
 
 //         if(a[i] > a[i+1]){
 //             return false
-//         }
+//         }`
 //     }
 //     return true
 // };
 // console.log(areNumbersAscending("1 box has 3 blue 4 red 6 green and 12 yellow marbles"));
 
+
+
+// // 506. relative ranks
+// var findRelativeRanks = function(score) {
+//     let sortedScore = score.slice().sort((a,b)=> b-a)
+//     let ranks = sortedScore.map((elem, index) => {
+//         if(index == 0) return 'Gold Medal'
+//         else if(index == 1) return 'Silver Medal'
+//         else if(index == 2) return 'Bronze Model'
+//         return (index + 1).toString()
+//     })
+
+//     return score.map(score => ranks[sortedScore.indexOf(sc)])
+// };
+// console.log(findRelativeRanks([5,4,3,2,1]));
+
+
+
+// // 1470. Shuffle the Array
+// var shuffle = function(nums, n) {
+//     let newArray = []
+//     for(let i = 0; i<n; i++){
+//         newArray.push(nums[i]);
+//         newArray.push(nums[i+n])
+//     }
+//     return newArray
+// };
+// console.log(shuffle([2,5,1,3,4,7],3));
