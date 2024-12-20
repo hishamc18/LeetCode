@@ -2391,3 +2391,14 @@
 //     return newArray
 // };
 // console.log(shuffle([2,5,1,3,4,7],3));
+
+
+
+// // 65. Valid Number
+// function isNumber(s) {
+//     const numberRegex = /^[\+\-]?((\d+(\.\d*)?)|(\.\d+))([eE][\+\-]?\d+)?$/;
+//     return numberRegex.test(s.trim());
+// }
+
+
+
