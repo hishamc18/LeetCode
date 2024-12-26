@@ -2480,3 +2480,30 @@
 // };
 // console.log(sortColors([2,0,2,1,1,0]));
 
+
+
+// // 345. Reverse Vowels of a String
+// var reverseVowels = function(s) {
+//     let vowels = 'aeiouAEIOU'
+//     let arr = s.split("")
+//     let left = 0;
+//     let right = arr.length - 1
+
+//     while (left < right){
+//         if(!vowels.includes(arr[left])){
+//             left++
+//             continue
+//         }
+//         if(!vowels.includes(arr[right])){
+//             right--
+//             continue
+//         }
+//         [arr[left], arr[right]]  = [arr[right], arr[left]]
+//         right--
+//         left++
+//     }
+//     return arr.join('')
+// };
+// console.log(reverseVowels("IceCreAm"));
+
+
