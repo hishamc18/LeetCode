@@ -2507,3 +2507,12 @@
 // console.log(reverseVowels("IceCreAm"));
 
 
+
+// // 231. power of two
+// var isPowerOfTwo = function(n) {
+//     return n > 0 && (n & (n-1)) == 0
+// }
+// console.log(isPowerOfTwo(1));
+// console.log(isPowerOfTwo(16));
+// console.log(isPowerOfTwo(13));
+
