@@ -2508,6 +2508,8 @@
 
 
 
+
+
 // // 231. power of two
 // var isPowerOfTwo = function(n) {
 //     return n > 0 && (n & (n-1)) == 0
@@ -2516,3 +2518,29 @@
 // console.log(isPowerOfTwo(16));
 // console.log(isPowerOfTwo(13));
 
+
+
+
+// // 1523. Count Odd Numbers in an Interval Range
+// var countOdds = function(low, high) {
+//     let a = []
+//     for(let i = low; i<=high; i++){
+//         if(i % 2 === 1){
+//             a.push(i)
+//         }
+//     }
+//     return a.length
+// };
+// console.log(countOdds(3,7));
+
+
+// //optimised method
+// var countOdds = function(low, high) {
+//     if (low % 2 === 0) low++;
+
+//     if (high % 2 === 0) high--;
+
+//     if (low > high) return 0;
+
+//     return Math.floor((high - low) / 2) + 1;
+// };
