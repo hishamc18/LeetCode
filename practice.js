@@ -2534,13 +2534,48 @@
 // console.log(countOdds(3,7));
 
 
-// //optimised method
+// //optimised method      // 1523. Count Odd Numbers in an Interval Range
 // var countOdds = function(low, high) {
 //     if (low % 2 === 0) low++;
-
 //     if (high % 2 === 0) high--;
-
 //     if (low > high) return 0;
-
 //     return Math.floor((high - low) / 2) + 1;
 // };
+
+
+
+// // 2643. Row With Maximum Ones
+// var rowAndMaximumOnes = function(mat) {
+//     let largeCount = 0;
+//     let smallIndex = 0
+
+//     mat.forEach((row, index) => {
+//         let totolOnes = row.reduce((acc,val) => acc + val, 0)
+//         if(totolOnes > largeCount){
+//             largeCount = totolOnes;
+//             smallIndex = index
+//         }
+//     })
+//     return [smallIndex, largeCount]
+// };
+// console.log(rowAndMaximumOnes([[0,1],[[1,0]]]));
+
+
+
+// 121. Best Time to Buy and Sell Stock
+// function maxProfit(prices) {
+//     let minPrice = Infinity;
+//     let profit = 0;
+
+//     for (let price of prices) {
+//         if (price < minPrice) {
+//             minPrice = price;
+//         } else if (price - minPrice > profit) {
+//             profit = price - minPrice;
+//         }
+//     }
+//     return profit;
+// }
+// console.log(maxProfit([7,1,5,3,6,4]));
+// console.log(maxProfit([7,6,4,3,1]));
+
