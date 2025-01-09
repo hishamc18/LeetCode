@@ -11,6 +11,9 @@
 // //     }
 // // };
 
+const e = require("express")
+const { DATE } = require("mysql/lib/protocol/constants/types")
+
 
 
 
@@ -2562,6 +2565,7 @@
 
 
 
+
 // 121. Best Time to Buy and Sell Stock
 // function maxProfit(prices) {
 //     let minPrice = Infinity;
@@ -2579,3 +2583,13 @@
 // console.log(maxProfit([7,1,5,3,6,4]));
 // console.log(maxProfit([7,6,4,3,1]));
 
+
+
+
+// // 2667. Create Hello World Function
+// var createHelloWorld = function() {
+//     const note = 'Hello World'
+//     return function(...args) {
+//         return note
+//     }
+// };
