@@ -28,6 +28,7 @@
 ## Math
 |  |
 | ------- |
+| [0263-ugly-number](https://github.com/hishamc18/LeetCode/tree/master/0263-ugly-number) |
 | [1635-number-of-good-pairs](https://github.com/hishamc18/LeetCode/tree/master/1635-number-of-good-pairs) |
 | [2812-find-the-maximum-achievable-number](https://github.com/hishamc18/LeetCode/tree/master/2812-find-the-maximum-achievable-number) |
 ## Counting
