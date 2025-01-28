@@ -6,6 +6,7 @@
 |  |
 | ------- |
 | [0164-maximum-gap](https://github.com/hishamc18/LeetCode/tree/master/0164-maximum-gap) |
+| [1524-string-matching-in-an-array](https://github.com/hishamc18/LeetCode/tree/master/1524-string-matching-in-an-array) |
 | [1635-number-of-good-pairs](https://github.com/hishamc18/LeetCode/tree/master/1635-number-of-good-pairs) |
 ## Sorting
 |  |
@@ -39,4 +40,9 @@
 |  |
 | ------- |
 | [0242-valid-anagram](https://github.com/hishamc18/LeetCode/tree/master/0242-valid-anagram) |
+| [1524-string-matching-in-an-array](https://github.com/hishamc18/LeetCode/tree/master/1524-string-matching-in-an-array) |
+## String Matching
+|  |
+| ------- |
+| [1524-string-matching-in-an-array](https://github.com/hishamc18/LeetCode/tree/master/1524-string-matching-in-an-array) |
 <!---LeetCode Topics End-->
