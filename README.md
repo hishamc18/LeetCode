@@ -6,6 +6,7 @@
 |  |
 | ------- |
 | [0164-maximum-gap](https://github.com/hishamc18/LeetCode/tree/master/0164-maximum-gap) |
+| [1137-height-checker](https://github.com/hishamc18/LeetCode/tree/master/1137-height-checker) |
 | [1524-string-matching-in-an-array](https://github.com/hishamc18/LeetCode/tree/master/1524-string-matching-in-an-array) |
 | [1635-number-of-good-pairs](https://github.com/hishamc18/LeetCode/tree/master/1635-number-of-good-pairs) |
 | [2048-build-array-from-permutation](https://github.com/hishamc18/LeetCode/tree/master/2048-build-array-from-permutation) |
@@ -15,6 +16,7 @@
 | ------- |
 | [0164-maximum-gap](https://github.com/hishamc18/LeetCode/tree/master/0164-maximum-gap) |
 | [0242-valid-anagram](https://github.com/hishamc18/LeetCode/tree/master/0242-valid-anagram) |
+| [1137-height-checker](https://github.com/hishamc18/LeetCode/tree/master/1137-height-checker) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -53,4 +55,8 @@
 |  |
 | ------- |
 | [2048-build-array-from-permutation](https://github.com/hishamc18/LeetCode/tree/master/2048-build-array-from-permutation) |
+## Counting Sort
+|  |
+| ------- |
+| [1137-height-checker](https://github.com/hishamc18/LeetCode/tree/master/1137-height-checker) |
 <!---LeetCode Topics End-->
