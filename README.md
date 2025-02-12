@@ -5,6 +5,7 @@
 ## Array
 |  |
 | ------- |
+| [0039-combination-sum](https://github.com/hishamc18/LeetCode/tree/master/0039-combination-sum) |
 | [0164-maximum-gap](https://github.com/hishamc18/LeetCode/tree/master/0164-maximum-gap) |
 | [1137-height-checker](https://github.com/hishamc18/LeetCode/tree/master/1137-height-checker) |
 | [1524-string-matching-in-an-array](https://github.com/hishamc18/LeetCode/tree/master/1524-string-matching-in-an-array) |
@@ -59,4 +60,8 @@
 |  |
 | ------- |
 | [1137-height-checker](https://github.com/hishamc18/LeetCode/tree/master/1137-height-checker) |
+## Backtracking
+|  |
+| ------- |
+| [0039-combination-sum](https://github.com/hishamc18/LeetCode/tree/master/0039-combination-sum) |
 <!---LeetCode Topics End-->
