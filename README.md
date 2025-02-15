@@ -64,4 +64,12 @@
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/hishamc18/LeetCode/tree/master/0039-combination-sum) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0190-reverse-bits](https://github.com/hishamc18/LeetCode/tree/master/0190-reverse-bits) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0190-reverse-bits](https://github.com/hishamc18/LeetCode/tree/master/0190-reverse-bits) |
 <!---LeetCode Topics End-->
