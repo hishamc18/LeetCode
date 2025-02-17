@@ -9,6 +9,7 @@
 | [0164-maximum-gap](https://github.com/hishamc18/LeetCode/tree/master/0164-maximum-gap) |
 | [1137-height-checker](https://github.com/hishamc18/LeetCode/tree/master/1137-height-checker) |
 | [1524-string-matching-in-an-array](https://github.com/hishamc18/LeetCode/tree/master/1524-string-matching-in-an-array) |
+| [1603-running-sum-of-1d-array](https://github.com/hishamc18/LeetCode/tree/master/1603-running-sum-of-1d-array) |
 | [1635-number-of-good-pairs](https://github.com/hishamc18/LeetCode/tree/master/1635-number-of-good-pairs) |
 | [2048-build-array-from-permutation](https://github.com/hishamc18/LeetCode/tree/master/2048-build-array-from-permutation) |
 | [2099-number-of-strings-that-appear-as-substrings-in-word](https://github.com/hishamc18/LeetCode/tree/master/2099-number-of-strings-that-appear-as-substrings-in-word) |
@@ -72,4 +73,8 @@
 |  |
 | ------- |
 | [0190-reverse-bits](https://github.com/hishamc18/LeetCode/tree/master/0190-reverse-bits) |
+## Prefix Sum
+|  |
+| ------- |
+| [1603-running-sum-of-1d-array](https://github.com/hishamc18/LeetCode/tree/master/1603-running-sum-of-1d-array) |
 <!---LeetCode Topics End-->
