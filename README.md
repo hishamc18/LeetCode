@@ -47,11 +47,13 @@
 |  |
 | ------- |
 | [0242-valid-anagram](https://github.com/hishamc18/LeetCode/tree/master/0242-valid-anagram) |
+| [0812-rotate-string](https://github.com/hishamc18/LeetCode/tree/master/0812-rotate-string) |
 | [1524-string-matching-in-an-array](https://github.com/hishamc18/LeetCode/tree/master/1524-string-matching-in-an-array) |
 | [2099-number-of-strings-that-appear-as-substrings-in-word](https://github.com/hishamc18/LeetCode/tree/master/2099-number-of-strings-that-appear-as-substrings-in-word) |
 ## String Matching
 |  |
 | ------- |
+| [0812-rotate-string](https://github.com/hishamc18/LeetCode/tree/master/0812-rotate-string) |
 | [1524-string-matching-in-an-array](https://github.com/hishamc18/LeetCode/tree/master/1524-string-matching-in-an-array) |
 ## Simulation
 |  |
