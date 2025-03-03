@@ -13,6 +13,7 @@
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/hishamc18/LeetCode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1603-running-sum-of-1d-array](https://github.com/hishamc18/LeetCode/tree/master/1603-running-sum-of-1d-array) |
 | [1635-number-of-good-pairs](https://github.com/hishamc18/LeetCode/tree/master/1635-number-of-good-pairs) |
+| [1833-find-the-highest-altitude](https://github.com/hishamc18/LeetCode/tree/master/1833-find-the-highest-altitude) |
 | [2048-build-array-from-permutation](https://github.com/hishamc18/LeetCode/tree/master/2048-build-array-from-permutation) |
 | [2099-number-of-strings-that-appear-as-substrings-in-word](https://github.com/hishamc18/LeetCode/tree/master/2099-number-of-strings-that-appear-as-substrings-in-word) |
 ## Sorting
@@ -82,4 +83,5 @@
 |  |
 | ------- |
 | [1603-running-sum-of-1d-array](https://github.com/hishamc18/LeetCode/tree/master/1603-running-sum-of-1d-array) |
+| [1833-find-the-highest-altitude](https://github.com/hishamc18/LeetCode/tree/master/1833-find-the-highest-altitude) |
 <!---LeetCode Topics End-->
