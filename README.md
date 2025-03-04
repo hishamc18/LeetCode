@@ -8,6 +8,7 @@
 | [0039-combination-sum](https://github.com/hishamc18/LeetCode/tree/master/0039-combination-sum) |
 | [0164-maximum-gap](https://github.com/hishamc18/LeetCode/tree/master/0164-maximum-gap) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/hishamc18/LeetCode/tree/master/0745-find-smallest-letter-greater-than-target) |
+| [1044-find-common-characters](https://github.com/hishamc18/LeetCode/tree/master/1044-find-common-characters) |
 | [1137-height-checker](https://github.com/hishamc18/LeetCode/tree/master/1137-height-checker) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/hishamc18/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1524-string-matching-in-an-array](https://github.com/hishamc18/LeetCode/tree/master/1524-string-matching-in-an-array) |
@@ -35,6 +36,7 @@
 |  |
 | ------- |
 | [0242-valid-anagram](https://github.com/hishamc18/LeetCode/tree/master/0242-valid-anagram) |
+| [1044-find-common-characters](https://github.com/hishamc18/LeetCode/tree/master/1044-find-common-characters) |
 | [1635-number-of-good-pairs](https://github.com/hishamc18/LeetCode/tree/master/1635-number-of-good-pairs) |
 ## Math
 |  |
@@ -53,6 +55,7 @@
 | ------- |
 | [0242-valid-anagram](https://github.com/hishamc18/LeetCode/tree/master/0242-valid-anagram) |
 | [0812-rotate-string](https://github.com/hishamc18/LeetCode/tree/master/0812-rotate-string) |
+| [1044-find-common-characters](https://github.com/hishamc18/LeetCode/tree/master/1044-find-common-characters) |
 | [1524-string-matching-in-an-array](https://github.com/hishamc18/LeetCode/tree/master/1524-string-matching-in-an-array) |
 | [2099-number-of-strings-that-appear-as-substrings-in-word](https://github.com/hishamc18/LeetCode/tree/master/2099-number-of-strings-that-appear-as-substrings-in-word) |
 ## String Matching
