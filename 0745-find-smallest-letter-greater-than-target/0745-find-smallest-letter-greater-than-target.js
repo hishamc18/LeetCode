@@ -4,15 +4,13 @@
  * @return {character}
  */
 var nextGreatestLetter = function(letters, target) {
-    let targetCode = target.charCodeAt()
-    let lettersCode = []
-    for(let i = 0; i < letters.length; i++){
-        if(letters[i].charCodeAt() > targetCode){
-            lettersCode.push(letters[i].charCodeAt())
+    for(let i=0; i<letters.length; i++){
+        if(letters[i]>target){
+            return letters[i];
+        }
+        else{
+            continue;
         }
     }
-    if(lettersCode.length === 0){
-        return letters[0]
-    }
-    return String.fromCharCode(lettersCode.sort((a,b) => a-b)[0])
+    return letters[0];
 };
