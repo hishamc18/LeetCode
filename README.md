@@ -45,6 +45,7 @@
 | [0504-base-7](https://github.com/hishamc18/LeetCode/tree/master/0504-base-7) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/hishamc18/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1635-number-of-good-pairs](https://github.com/hishamc18/LeetCode/tree/master/1635-number-of-good-pairs) |
+| [1817-calculate-money-in-leetcode-bank](https://github.com/hishamc18/LeetCode/tree/master/1817-calculate-money-in-leetcode-bank) |
 | [2812-find-the-maximum-achievable-number](https://github.com/hishamc18/LeetCode/tree/master/2812-find-the-maximum-achievable-number) |
 ## Counting
 |  |
