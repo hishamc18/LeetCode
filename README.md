@@ -7,6 +7,7 @@
 | ------- |
 | [0039-combination-sum](https://github.com/hishamc18/LeetCode/tree/master/0039-combination-sum) |
 | [0164-maximum-gap](https://github.com/hishamc18/LeetCode/tree/master/0164-maximum-gap) |
+| [0628-maximum-product-of-three-numbers](https://github.com/hishamc18/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/hishamc18/LeetCode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [1044-find-common-characters](https://github.com/hishamc18/LeetCode/tree/master/1044-find-common-characters) |
 | [1137-height-checker](https://github.com/hishamc18/LeetCode/tree/master/1137-height-checker) |
@@ -23,6 +24,7 @@
 | ------- |
 | [0164-maximum-gap](https://github.com/hishamc18/LeetCode/tree/master/0164-maximum-gap) |
 | [0242-valid-anagram](https://github.com/hishamc18/LeetCode/tree/master/0242-valid-anagram) |
+| [0628-maximum-product-of-three-numbers](https://github.com/hishamc18/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
 | [1137-height-checker](https://github.com/hishamc18/LeetCode/tree/master/1137-height-checker) |
 ## Bucket Sort
 |  |
@@ -43,6 +45,7 @@
 | ------- |
 | [0263-ugly-number](https://github.com/hishamc18/LeetCode/tree/master/0263-ugly-number) |
 | [0504-base-7](https://github.com/hishamc18/LeetCode/tree/master/0504-base-7) |
+| [0628-maximum-product-of-three-numbers](https://github.com/hishamc18/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/hishamc18/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1635-number-of-good-pairs](https://github.com/hishamc18/LeetCode/tree/master/1635-number-of-good-pairs) |
 | [1817-calculate-money-in-leetcode-bank](https://github.com/hishamc18/LeetCode/tree/master/1817-calculate-money-in-leetcode-bank) |
