@@ -58,6 +58,7 @@
 |  |
 | ------- |
 | [0242-valid-anagram](https://github.com/hishamc18/LeetCode/tree/master/0242-valid-anagram) |
+| [0551-student-attendance-record-i](https://github.com/hishamc18/LeetCode/tree/master/0551-student-attendance-record-i) |
 | [0812-rotate-string](https://github.com/hishamc18/LeetCode/tree/master/0812-rotate-string) |
 | [1044-find-common-characters](https://github.com/hishamc18/LeetCode/tree/master/1044-find-common-characters) |
 | [1524-string-matching-in-an-array](https://github.com/hishamc18/LeetCode/tree/master/1524-string-matching-in-an-array) |
