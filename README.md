@@ -22,6 +22,7 @@
 | [2048-build-array-from-permutation](https://github.com/hishamc18/LeetCode/tree/master/2048-build-array-from-permutation) |
 | [2099-number-of-strings-that-appear-as-substrings-in-word](https://github.com/hishamc18/LeetCode/tree/master/2099-number-of-strings-that-appear-as-substrings-in-word) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/hishamc18/LeetCode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
+| [3778-transform-array-by-parity](https://github.com/hishamc18/LeetCode/tree/master/3778-transform-array-by-parity) |
 ## Sorting
 |  |
 | ------- |
@@ -30,6 +31,7 @@
 | [0628-maximum-product-of-three-numbers](https://github.com/hishamc18/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0941-sort-array-by-parity](https://github.com/hishamc18/LeetCode/tree/master/0941-sort-array-by-parity) |
 | [1137-height-checker](https://github.com/hishamc18/LeetCode/tree/master/1137-height-checker) |
+| [3778-transform-array-by-parity](https://github.com/hishamc18/LeetCode/tree/master/3778-transform-array-by-parity) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -60,6 +62,7 @@
 |  |
 | ------- |
 | [1635-number-of-good-pairs](https://github.com/hishamc18/LeetCode/tree/master/1635-number-of-good-pairs) |
+| [3778-transform-array-by-parity](https://github.com/hishamc18/LeetCode/tree/master/3778-transform-array-by-parity) |
 ## String
 |  |
 | ------- |
