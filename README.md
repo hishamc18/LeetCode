@@ -20,6 +20,7 @@
 | [1603-running-sum-of-1d-array](https://github.com/hishamc18/LeetCode/tree/master/1603-running-sum-of-1d-array) |
 | [1635-number-of-good-pairs](https://github.com/hishamc18/LeetCode/tree/master/1635-number-of-good-pairs) |
 | [1833-find-the-highest-altitude](https://github.com/hishamc18/LeetCode/tree/master/1833-find-the-highest-altitude) |
+| [1950-sign-of-the-product-of-an-array](https://github.com/hishamc18/LeetCode/tree/master/1950-sign-of-the-product-of-an-array) |
 | [2048-build-array-from-permutation](https://github.com/hishamc18/LeetCode/tree/master/2048-build-array-from-permutation) |
 | [2099-number-of-strings-that-appear-as-substrings-in-word](https://github.com/hishamc18/LeetCode/tree/master/2099-number-of-strings-that-appear-as-substrings-in-word) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/hishamc18/LeetCode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
@@ -61,6 +62,7 @@
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/hishamc18/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1635-number-of-good-pairs](https://github.com/hishamc18/LeetCode/tree/master/1635-number-of-good-pairs) |
 | [1817-calculate-money-in-leetcode-bank](https://github.com/hishamc18/LeetCode/tree/master/1817-calculate-money-in-leetcode-bank) |
+| [1950-sign-of-the-product-of-an-array](https://github.com/hishamc18/LeetCode/tree/master/1950-sign-of-the-product-of-an-array) |
 | [2812-find-the-maximum-achievable-number](https://github.com/hishamc18/LeetCode/tree/master/2812-find-the-maximum-achievable-number) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/hishamc18/LeetCode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 ## Counting
