@@ -57,6 +57,7 @@
 |  |
 | ------- |
 | [0263-ugly-number](https://github.com/hishamc18/LeetCode/tree/master/0263-ugly-number) |
+| [0292-nim-game](https://github.com/hishamc18/LeetCode/tree/master/0292-nim-game) |
 | [0504-base-7](https://github.com/hishamc18/LeetCode/tree/master/0504-base-7) |
 | [0628-maximum-product-of-three-numbers](https://github.com/hishamc18/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/hishamc18/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
@@ -131,4 +132,12 @@
 |  |
 | ------- |
 | [0948-sort-an-array](https://github.com/hishamc18/LeetCode/tree/master/0948-sort-an-array) |
+## Brainteaser
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/hishamc18/LeetCode/tree/master/0292-nim-game) |
+## Game Theory
+|  |
+| ------- |
+| [0292-nim-game](https://github.com/hishamc18/LeetCode/tree/master/0292-nim-game) |
 <!---LeetCode Topics End-->
