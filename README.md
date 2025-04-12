@@ -82,6 +82,7 @@
 | [1537-maximum-score-after-splitting-a-string](https://github.com/hishamc18/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [2099-number-of-strings-that-appear-as-substrings-in-word](https://github.com/hishamc18/LeetCode/tree/master/2099-number-of-strings-that-appear-as-substrings-in-word) |
 | [3412-permutation-difference-between-two-strings](https://github.com/hishamc18/LeetCode/tree/master/3412-permutation-difference-between-two-strings) |
+| [3811-reverse-degree-of-a-string](https://github.com/hishamc18/LeetCode/tree/master/3811-reverse-degree-of-a-string) |
 ## String Matching
 |  |
 | ------- |
@@ -91,6 +92,7 @@
 |  |
 | ------- |
 | [2048-build-array-from-permutation](https://github.com/hishamc18/LeetCode/tree/master/2048-build-array-from-permutation) |
+| [3811-reverse-degree-of-a-string](https://github.com/hishamc18/LeetCode/tree/master/3811-reverse-degree-of-a-string) |
 ## Counting Sort
 |  |
 | ------- |
