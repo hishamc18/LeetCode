@@ -52,6 +52,7 @@
 |  |
 | ------- |
 | [0242-valid-anagram](https://github.com/hishamc18/LeetCode/tree/master/0242-valid-anagram) |
+| [0920-uncommon-words-from-two-sentences](https://github.com/hishamc18/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1044-find-common-characters](https://github.com/hishamc18/LeetCode/tree/master/1044-find-common-characters) |
 | [1635-number-of-good-pairs](https://github.com/hishamc18/LeetCode/tree/master/1635-number-of-good-pairs) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/hishamc18/LeetCode/tree/master/2274-keep-multiplying-found-values-by-two) |
@@ -73,6 +74,7 @@
 ## Counting
 |  |
 | ------- |
+| [0920-uncommon-words-from-two-sentences](https://github.com/hishamc18/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1635-number-of-good-pairs](https://github.com/hishamc18/LeetCode/tree/master/1635-number-of-good-pairs) |
 | [3778-transform-array-by-parity](https://github.com/hishamc18/LeetCode/tree/master/3778-transform-array-by-parity) |
 ## String
@@ -81,6 +83,7 @@
 | [0242-valid-anagram](https://github.com/hishamc18/LeetCode/tree/master/0242-valid-anagram) |
 | [0551-student-attendance-record-i](https://github.com/hishamc18/LeetCode/tree/master/0551-student-attendance-record-i) |
 | [0812-rotate-string](https://github.com/hishamc18/LeetCode/tree/master/0812-rotate-string) |
+| [0920-uncommon-words-from-two-sentences](https://github.com/hishamc18/LeetCode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1044-find-common-characters](https://github.com/hishamc18/LeetCode/tree/master/1044-find-common-characters) |
 | [1524-string-matching-in-an-array](https://github.com/hishamc18/LeetCode/tree/master/1524-string-matching-in-an-array) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/hishamc18/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
