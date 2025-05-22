@@ -26,6 +26,7 @@
 | [2048-build-array-from-permutation](https://github.com/hishamc18/LeetCode/tree/master/2048-build-array-from-permutation) |
 | [2099-number-of-strings-that-appear-as-substrings-in-word](https://github.com/hishamc18/LeetCode/tree/master/2099-number-of-strings-that-appear-as-substrings-in-word) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/hishamc18/LeetCode/tree/master/2274-keep-multiplying-found-values-by-two) |
+| [2502-sort-the-people](https://github.com/hishamc18/LeetCode/tree/master/2502-sort-the-people) |
 | [2876-number-of-employees-who-met-the-target](https://github.com/hishamc18/LeetCode/tree/master/2876-number-of-employees-who-met-the-target) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/hishamc18/LeetCode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3778-transform-array-by-parity](https://github.com/hishamc18/LeetCode/tree/master/3778-transform-array-by-parity) |
@@ -40,6 +41,7 @@
 | [0948-sort-an-array](https://github.com/hishamc18/LeetCode/tree/master/0948-sort-an-array) |
 | [1137-height-checker](https://github.com/hishamc18/LeetCode/tree/master/1137-height-checker) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/hishamc18/LeetCode/tree/master/2274-keep-multiplying-found-values-by-two) |
+| [2502-sort-the-people](https://github.com/hishamc18/LeetCode/tree/master/2502-sort-the-people) |
 | [3778-transform-array-by-parity](https://github.com/hishamc18/LeetCode/tree/master/3778-transform-array-by-parity) |
 ## Bucket Sort
 |  |
@@ -60,6 +62,7 @@
 | [1044-find-common-characters](https://github.com/hishamc18/LeetCode/tree/master/1044-find-common-characters) |
 | [1635-number-of-good-pairs](https://github.com/hishamc18/LeetCode/tree/master/1635-number-of-good-pairs) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/hishamc18/LeetCode/tree/master/2274-keep-multiplying-found-values-by-two) |
+| [2502-sort-the-people](https://github.com/hishamc18/LeetCode/tree/master/2502-sort-the-people) |
 | [3412-permutation-difference-between-two-strings](https://github.com/hishamc18/LeetCode/tree/master/3412-permutation-difference-between-two-strings) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/hishamc18/LeetCode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 ## Math
@@ -93,6 +96,7 @@
 | [1537-maximum-score-after-splitting-a-string](https://github.com/hishamc18/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [2099-number-of-strings-that-appear-as-substrings-in-word](https://github.com/hishamc18/LeetCode/tree/master/2099-number-of-strings-that-appear-as-substrings-in-word) |
 | [2365-percentage-of-letter-in-string](https://github.com/hishamc18/LeetCode/tree/master/2365-percentage-of-letter-in-string) |
+| [2502-sort-the-people](https://github.com/hishamc18/LeetCode/tree/master/2502-sort-the-people) |
 | [3412-permutation-difference-between-two-strings](https://github.com/hishamc18/LeetCode/tree/master/3412-permutation-difference-between-two-strings) |
 | [3811-reverse-degree-of-a-string](https://github.com/hishamc18/LeetCode/tree/master/3811-reverse-degree-of-a-string) |
 ## String Matching
