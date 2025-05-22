@@ -8,6 +8,7 @@
 | [0039-combination-sum](https://github.com/hishamc18/LeetCode/tree/master/0039-combination-sum) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/hishamc18/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0164-maximum-gap](https://github.com/hishamc18/LeetCode/tree/master/0164-maximum-gap) |
+| [0260-single-number-iii](https://github.com/hishamc18/LeetCode/tree/master/0260-single-number-iii) |
 | [0628-maximum-product-of-three-numbers](https://github.com/hishamc18/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/hishamc18/LeetCode/tree/master/0745-find-smallest-letter-greater-than-target) |
 | [0941-sort-array-by-parity](https://github.com/hishamc18/LeetCode/tree/master/0941-sort-array-by-parity) |
@@ -120,6 +121,7 @@
 |  |
 | ------- |
 | [0190-reverse-bits](https://github.com/hishamc18/LeetCode/tree/master/0190-reverse-bits) |
+| [0260-single-number-iii](https://github.com/hishamc18/LeetCode/tree/master/0260-single-number-iii) |
 ## Prefix Sum
 |  |
 | ------- |
