@@ -40,6 +40,7 @@
 | [0941-sort-array-by-parity](https://github.com/hishamc18/LeetCode/tree/master/0941-sort-array-by-parity) |
 | [0948-sort-an-array](https://github.com/hishamc18/LeetCode/tree/master/0948-sort-an-array) |
 | [1137-height-checker](https://github.com/hishamc18/LeetCode/tree/master/1137-height-checker) |
+| [1970-sorting-the-sentence](https://github.com/hishamc18/LeetCode/tree/master/1970-sorting-the-sentence) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/hishamc18/LeetCode/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2502-sort-the-people](https://github.com/hishamc18/LeetCode/tree/master/2502-sort-the-people) |
 | [3778-transform-array-by-parity](https://github.com/hishamc18/LeetCode/tree/master/3778-transform-array-by-parity) |
@@ -94,6 +95,7 @@
 | [1044-find-common-characters](https://github.com/hishamc18/LeetCode/tree/master/1044-find-common-characters) |
 | [1524-string-matching-in-an-array](https://github.com/hishamc18/LeetCode/tree/master/1524-string-matching-in-an-array) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/hishamc18/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [1970-sorting-the-sentence](https://github.com/hishamc18/LeetCode/tree/master/1970-sorting-the-sentence) |
 | [2099-number-of-strings-that-appear-as-substrings-in-word](https://github.com/hishamc18/LeetCode/tree/master/2099-number-of-strings-that-appear-as-substrings-in-word) |
 | [2365-percentage-of-letter-in-string](https://github.com/hishamc18/LeetCode/tree/master/2365-percentage-of-letter-in-string) |
 | [2502-sort-the-people](https://github.com/hishamc18/LeetCode/tree/master/2502-sort-the-people) |
