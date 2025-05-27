@@ -6,6 +6,7 @@
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/hishamc18/LeetCode/tree/master/0039-combination-sum) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/hishamc18/LeetCode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/hishamc18/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0164-maximum-gap](https://github.com/hishamc18/LeetCode/tree/master/0164-maximum-gap) |
 | [0260-single-number-iii](https://github.com/hishamc18/LeetCode/tree/master/0260-single-number-iii) |
@@ -142,6 +143,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/hishamc18/LeetCode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/hishamc18/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0349-intersection-of-two-arrays](https://github.com/hishamc18/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0745-find-smallest-letter-greater-than-target](https://github.com/hishamc18/LeetCode/tree/master/0745-find-smallest-letter-greater-than-target) |
