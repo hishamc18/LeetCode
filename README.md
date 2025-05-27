@@ -73,6 +73,7 @@
 | [0292-nim-game](https://github.com/hishamc18/LeetCode/tree/master/0292-nim-game) |
 | [0504-base-7](https://github.com/hishamc18/LeetCode/tree/master/0504-base-7) |
 | [0628-maximum-product-of-three-numbers](https://github.com/hishamc18/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
+| [0728-self-dividing-numbers](https://github.com/hishamc18/LeetCode/tree/master/0728-self-dividing-numbers) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/hishamc18/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1635-number-of-good-pairs](https://github.com/hishamc18/LeetCode/tree/master/1635-number-of-good-pairs) |
 | [1817-calculate-money-in-leetcode-bank](https://github.com/hishamc18/LeetCode/tree/master/1817-calculate-money-in-leetcode-bank) |
