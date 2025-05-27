@@ -3,15 +3,15 @@
  * @param {number} right
  * @return {number[]}
  */
-var selfDividingNumbers = function(left, right) {
-      const result = [];
+var selfDividingNumbers = function (left, right) {
+    const result = [];
 
-  for (let i = left; i <= right; i++) {
-    const digits = i.toString().split('');
-    if (digits.every(d => d !== '0' && i % Number(d) === 0)) {
-      result.push(i);
+    for (let i = left; i <= right; i++) {
+        const digits = String(i).split('')
+        if (digits.every(d => d !== '0' && i % Number(d) === 0)) {
+            result.push(i);
+        }
     }
-  }
 
-  return result;
+    return result;
 };
