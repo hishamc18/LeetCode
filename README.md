@@ -46,6 +46,7 @@
 | [2274-keep-multiplying-found-values-by-two](https://github.com/hishamc18/LeetCode/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2502-sort-the-people](https://github.com/hishamc18/LeetCode/tree/master/2502-sort-the-people) |
 | [3778-transform-array-by-parity](https://github.com/hishamc18/LeetCode/tree/master/3778-transform-array-by-parity) |
+| [3859-maximum-product-of-two-digits](https://github.com/hishamc18/LeetCode/tree/master/3859-maximum-product-of-two-digits) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -82,6 +83,7 @@
 | [1950-sign-of-the-product-of-an-array](https://github.com/hishamc18/LeetCode/tree/master/1950-sign-of-the-product-of-an-array) |
 | [2812-find-the-maximum-achievable-number](https://github.com/hishamc18/LeetCode/tree/master/2812-find-the-maximum-achievable-number) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/hishamc18/LeetCode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
+| [3859-maximum-product-of-two-digits](https://github.com/hishamc18/LeetCode/tree/master/3859-maximum-product-of-two-digits) |
 ## Counting
 |  |
 | ------- |
