@@ -27,6 +27,7 @@
 | [2048-build-array-from-permutation](https://github.com/hishamc18/LeetCode/tree/master/2048-build-array-from-permutation) |
 | [2099-number-of-strings-that-appear-as-substrings-in-word](https://github.com/hishamc18/LeetCode/tree/master/2099-number-of-strings-that-appear-as-substrings-in-word) |
 | [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/hishamc18/LeetCode/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
+| [2231-find-first-palindromic-string-in-the-array](https://github.com/hishamc18/LeetCode/tree/master/2231-find-first-palindromic-string-in-the-array) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/hishamc18/LeetCode/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2502-sort-the-people](https://github.com/hishamc18/LeetCode/tree/master/2502-sort-the-people) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/hishamc18/LeetCode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
@@ -107,6 +108,7 @@
 | [1537-maximum-score-after-splitting-a-string](https://github.com/hishamc18/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1970-sorting-the-sentence](https://github.com/hishamc18/LeetCode/tree/master/1970-sorting-the-sentence) |
 | [2099-number-of-strings-that-appear-as-substrings-in-word](https://github.com/hishamc18/LeetCode/tree/master/2099-number-of-strings-that-appear-as-substrings-in-word) |
+| [2231-find-first-palindromic-string-in-the-array](https://github.com/hishamc18/LeetCode/tree/master/2231-find-first-palindromic-string-in-the-array) |
 | [2365-percentage-of-letter-in-string](https://github.com/hishamc18/LeetCode/tree/master/2365-percentage-of-letter-in-string) |
 | [2502-sort-the-people](https://github.com/hishamc18/LeetCode/tree/master/2502-sort-the-people) |
 | [3412-permutation-difference-between-two-strings](https://github.com/hishamc18/LeetCode/tree/master/3412-permutation-difference-between-two-strings) |
@@ -160,6 +162,7 @@
 | ------- |
 | [0349-intersection-of-two-arrays](https://github.com/hishamc18/LeetCode/tree/master/0349-intersection-of-two-arrays) |
 | [0941-sort-array-by-parity](https://github.com/hishamc18/LeetCode/tree/master/0941-sort-array-by-parity) |
+| [2231-find-first-palindromic-string-in-the-array](https://github.com/hishamc18/LeetCode/tree/master/2231-find-first-palindromic-string-in-the-array) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
