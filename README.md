@@ -33,6 +33,7 @@
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/hishamc18/LeetCode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2876-number-of-employees-who-met-the-target](https://github.com/hishamc18/LeetCode/tree/master/2876-number-of-employees-who-met-the-target) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/hishamc18/LeetCode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
+| [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/hishamc18/LeetCode/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [3778-transform-array-by-parity](https://github.com/hishamc18/LeetCode/tree/master/3778-transform-array-by-parity) |
 ## Sorting
 |  |
