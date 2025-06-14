@@ -7,6 +7,7 @@
 | ------- |
 | [0039-combination-sum](https://github.com/hishamc18/LeetCode/tree/master/0039-combination-sum) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/hishamc18/LeetCode/tree/master/0081-search-in-rotated-sorted-array-ii) |
+| [0118-pascals-triangle](https://github.com/hishamc18/LeetCode/tree/master/0118-pascals-triangle) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/hishamc18/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0164-maximum-gap](https://github.com/hishamc18/LeetCode/tree/master/0164-maximum-gap) |
 | [0260-single-number-iii](https://github.com/hishamc18/LeetCode/tree/master/0260-single-number-iii) |
@@ -180,4 +181,8 @@
 |  |
 | ------- |
 | [0292-nim-game](https://github.com/hishamc18/LeetCode/tree/master/0292-nim-game) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0118-pascals-triangle](https://github.com/hishamc18/LeetCode/tree/master/0118-pascals-triangle) |
 <!---LeetCode Topics End-->
