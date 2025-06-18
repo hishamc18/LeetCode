@@ -109,6 +109,7 @@
 | [1044-find-common-characters](https://github.com/hishamc18/LeetCode/tree/master/1044-find-common-characters) |
 | [1524-string-matching-in-an-array](https://github.com/hishamc18/LeetCode/tree/master/1524-string-matching-in-an-array) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/hishamc18/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [1797-goal-parser-interpretation](https://github.com/hishamc18/LeetCode/tree/master/1797-goal-parser-interpretation) |
 | [1970-sorting-the-sentence](https://github.com/hishamc18/LeetCode/tree/master/1970-sorting-the-sentence) |
 | [2099-number-of-strings-that-appear-as-substrings-in-word](https://github.com/hishamc18/LeetCode/tree/master/2099-number-of-strings-that-appear-as-substrings-in-word) |
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/hishamc18/LeetCode/tree/master/2231-find-first-palindromic-string-in-the-array) |
